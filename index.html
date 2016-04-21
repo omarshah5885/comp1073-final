@@ -51,18 +51,20 @@ var di6 = document.createElement("img");
 var di1 = document.getElementById("di1");
 var di2 = document.getElementById("di2");
 
-  
+
+// add click event to button
    var button = document.getElementById("button");
    button.onclick = function(){
-   
+// create two math random functions for two different di
    var roll = Math.floor((Math.random()*6 +1));
    var roll2 = Math.floor((Math.random()*6 +1));
 
+// displaying di via DOM accesing
    document.getElementById("result1").innerHTML = "<strong>Di one:</strong> " + roll;
    document.getElementById("result2").innerHTML = "<strong>Di two:</strong> " + roll2; 
 
 	
-  
+//   added if else scen
    if (roll === 1) {
        di1.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/120px-Dice-1-b.svg.png");
 
