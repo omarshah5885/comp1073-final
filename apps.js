@@ -42,49 +42,49 @@ di6.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dice-6a.svg
 
 		// if else scenario for di1 
 		if (roll === 1) {
-			di1.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/120px-Dice-1-b.svg.png");
+			di1.setAttribute("src", "images/di1.png");
 
 		}
 
 		else if (roll === 2) {
-			di1.setAttribute("src", "http://dobbelsteen.virtuworld.net/img/2c.gif");
+			di1.setAttribute("src", "images/di2.png");
 
 		}
 		else if (roll === 3) {
-			di1.setAttribute("src", "http://www.serenapowers.com/img/dice3.jpg");
+			di1.setAttribute("src", "images/di3.jpg");
 		}
 		else if (roll === 4) {
-			di1.setAttribute("src", "http://www.clipartbest.com/cliparts/4ib/Rao/4ibRao6ig.gif");
+			di1.setAttribute("src", "images/di4.png");
 		}
 		else if (roll === 5) {
-			di1.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dice-5-b.svg/120px-Dice-5-b.svg.png");
+			di1.setAttribute("src", "images/di5.png");
 
 		}
 		else if (roll === 6) {
-			di1.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dice-6a.svg/200px-Dice-6a.svg.png");
+			di1.setAttribute("src", "images/di6.png");
 		}
 
 
 
 		// if else scenario for di2
 		if (roll2 === 1) {
-			di2.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/120px-Dice-1-b.svg.png");
+			di2.setAttribute("src", "images/di1.png");
 		}
 		else if (roll2 === 2) {
-			di2.setAttribute("src", "http://dobbelsteen.virtuworld.net/img/2c.gif");
+			di2.setAttribute("src", "images/di2.png");
 
 		}
 		else if (roll2 === 3) {
-			di2.setAttribute("src", "http://www.serenapowers.com/img/dice3.jpg");
+			di2.setAttribute("src", "images/di3.jpg");
 		}
 		else if (roll2 === 4) {
-			di2.setAttribute("src", "http://www.clipartbest.com/cliparts/4ib/Rao/4ibRao6ig.gif");
+			di2.setAttribute("src", "images/di4.png");
 		}
 		else if (roll2 === 5) {
-			di2.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dice-5-b.svg/120px-Dice-5-b.svg.png");
+			di2.setAttribute("src", "images/di5.png");
 		}
 		else if (roll2 === 6) {
-			di2.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dice-6a.svg/200px-Dice-6a.svg.png");
+			di2.setAttribute("src", "images/di6.png");
 		}
 
 
