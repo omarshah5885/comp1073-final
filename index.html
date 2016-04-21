@@ -5,28 +5,38 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <style>
-        div {
+        section {
+            width: 10%;
             display: inline-block;
-        }
-        
-        div:nth-of-type(n+3) {
-            display: inherit;
         }
         
         img {
             width: 100px;
         }
+        button {
+display: block;
+margin: 0 auto;
+
+        }
+        aside {
+            width: 20%;
+        }
     </style>
 </head>
 
 <body>
-    <div><img id="di1"></div>
-    <div><img id="di2"></div>
-    <div id="result1"></div>
-    <div id="result2"></div>
+    <section>
+        <div><img id="di1"></div>
+        <div id="result1"></div>
+    </section>
 
-
-    <button id="button">Roll</button>
+    <section>
+        <div><img id="di2"></div>
+        <div id="result2"></div>
+    </section>
+    <aside>
+        <button id="button">Roll</button>
+    </aside>
     <script src="apps.js"></script>
 
 </body>
